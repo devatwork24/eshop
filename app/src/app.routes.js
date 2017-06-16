@@ -6,6 +6,11 @@ angular
 
 function config ($routeProvider) {
     $routeProvider.
+         when('/', {
+            templateUrl: 'sections/header/header.tpl.html',
+            controller: 'HeaderController as header'
+        })
+         
         when('/', {
             templateUrl: 'sections/home/home.tpl.html',
             controller: 'HomeController as home'

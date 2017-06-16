@@ -1,0 +1,215 @@
+#site-header {
+    background-color: #3BB9BB;
+    border-color: #222;
+    color: #fff;
+    font-weight: 300;
+    /* padding: 15px; */
+}
+#site-header .logo {
+    line-height: 60px;
+    width: 200px;
+}
+#site-header .logo img{
+    width: 50%;
+}
+#site-header .logo .alt {
+    color: #3bb9bb;
+}
+#site-header .search-box-wrapper {
+    margin-top: 0px;
+    padding-top: 13.5px;
+    padding-left: 15px;
+}
+#site-header .overlap {
+    position: absolute;
+    background: white;
+    width: 19%;
+    padding: 0 10px 0 32px;
+    color: #333;
+    border-radius: 2px 0px 0px 2px;
+    height: 37px;
+    line-height: 37px;
+    font-size: 14px;
+}
+#site-header .searchformInput {
+    background: rgba(244,244,244,0.6);
+    border: none;
+    font-size: 14px;
+    color: #909090;
+    border-right: none;
+    height: 37px;
+    padding: 0 10px 0 32px;
+    outline: none;
+    text-overflow: ellipsis;
+    border-radius: 2px 0px 0px 2px;
+    font-family: "font-regular";
+    position: relative;
+}
+#site-header .searchformButton {
+    position: relative;
+    top: 0;
+    background: #333;
+    color: #fff;
+    transition: all 0.2s ease-out;
+    height: 37px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    border-radius: 0 3px 3px 0 !important;
+}
+#site-header .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 20.83333%;
+}
+#site-header .menu .cartContainer {
+    border-left: 1px solid rgba(0,0,0,0.07);
+    height: 63px;
+    text-align: center;
+    display: table;
+    cursor: pointer;
+}
+.cartContainer .cartInner {
+    vertical-align: middle;
+    display: table-cell;
+}
+.reset-padding {
+    padding: 0;
+}
+.pad-rt{
+    padding-right: 5px; 
+}
+.col-xs-9 {
+    width: 37.5%;
+}
+.col-xs-11 {
+    width: 45.83333%;
+}
+
+.col-xs-13 {
+    width: 54.16667%;
+}
+.col-xs-12 {
+    width: 50%;
+}
+#site-header .menu .myAccountTab {
+    height: 63px;
+    color: #555555;
+    font-size: 13px;
+    display: inline-table;
+    padding-top: 5px !important;
+    cursor: pointer;
+    border-left: 1px solid rgba(0,0,0,0.07);
+}
+.myAccountTab .accountInner {
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 4px 4px 0 0;
+    padding-top: 12px;
+    padding-left: 22px;
+}
+.myAccountTab .accountInner .accountUserName {
+    color: #fff;
+    display: inline-block;
+    line-height: 14px;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    max-width: 100px;
+    max-height: 13px;
+    text-align: center;
+    padding-bottom: 1px;
+    box-sizing: content-box;
+}
+.myAccountTab .accountInner .accountUserImg {
+    float: left;
+    margin-top: -5px;
+    padding-right: 0px;
+    padding-left: 12px;
+    bottom: 5px;
+}
+
+.myAccountTab .accountInner .accountUserImg img {
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.hidden, .disp-none {
+    display: none;
+}
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
+.hard-hidden {
+    display: none !important;
+}
+
+.dropdownWrapper .dropdownAccount .accountList li.logoutNew {
+    text-align: center!important;
+    margin-top: 7px
+}
+.dropdownWrapper .dropdownAccount .accountList li.logoutNew .accountBtn {
+    border-radius: 3px!important;
+    height: 37px;
+    font-size: 13px!important;
+    line-height: 30px;
+    background: #555
+}
+.dropdownAccountNonLoggedIn, .dropdownAccount {
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    font-size: 13px;
+    width: 215px;
+    top: 62.6px;
+    right: 0;
+    z-index: 100;
+    position: absolute;
+    border-radius: 4px 0px 4px 4px;
+    background-color: #333;
+}
+ol, ul {
+    list-style: none;
+}
+.dropdownAccountNonLoggedIn .accountList, .dropdownAccount .accountList {
+    float: left;
+}
+.dropdownAccountNonLoggedIn .accountList ul, .dropdownAccount .accountList ul {
+    list-style-type: none;
+    z-index: 100;
+    width: 100%;
+    float: left;
+    padding: 15px 0px;
+}
+.dropdownAccountNonLoggedIn .accountList ul li, .dropdownAccount .accountList ul li {
+    float: left !important;
+    width: 100%;
+    text-align: left !important;
+}
+.dropdownAccountNonLoggedIn .accountList ul a, .dropdownAccount .accountList ul a {
+    width: 100%;
+    display: block;
+    line-height: 35px;
+    padding-left: 15px;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 0px !important;
+}
+.dropdownAccountNonLoggedIn .accountList ul li:hover,
+.dropdownAccount .accountList ul li:hover {
+    background: rgba(0, 0, 0, 0.1)
+}
+.accountHeadColor {
+    background-color: #333;
+    color: #fff !important
+}
